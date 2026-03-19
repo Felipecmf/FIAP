@@ -1,8 +1,10 @@
-num = int(input("Digite um número com 4 dígitos: "))
-milhar = num // 1000
-centena = (num % 1000) // 100   # "//" divide e pega a parte inteira do resultado, no caso seria 1234 dividido por 1000, que fica como 1,234, o python interpreta como apenas 1
-dezena = (num % 100) // 10      # "%" é o resto da divisão
-unidade = num % 10
+numero = input("Digite um numero de 4 digitos: ")
 
-invertido = unidade * 1000 + dezena * 100 + centena * 10 + milhar
-print(f"Número invertido: {invertido}")
+d1 = numero[0]
+d2 = numero[1]
+d3 = numero[2]
+d4 = numero[3]
+
+print(numero)
+print(d4,d3,d2,d1)
+print(numero[::-1])
