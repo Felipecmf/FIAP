@@ -5,4 +5,4 @@ dezena = (num % 100) // 10      # "%" é o resto da divisão
 unidade = num % 10
 
 invertido = unidade * 1000 + dezena * 100 + centena * 10 + milhar
-print("Número invertido: ", invertido)
+print(f"Número invertido: {invertido}")
