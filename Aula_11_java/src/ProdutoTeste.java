@@ -1,6 +1,5 @@
 public class ProdutoTeste {
-    static void main(String[] args) {
-
+    public static void main(String[] args) {
         Produto produto = new Produto("Produto", 10f);
         System.out.println("Nome: " + produto.getNome());
         System.out.println("Preco: " + produto.getPreco());
@@ -12,7 +11,5 @@ public class ProdutoTeste {
         System.out.println("Preco: " + outroProduto.getPreco());
         outroProduto.setPreco(1000);
         System.out.println("Preco: " + outroProduto.getPreco());
-
-
     }
 }
